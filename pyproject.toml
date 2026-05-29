@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "avp-sdk"
+version = "0.1.0"
+description = "Python client for the AVP Agent Verification Protocol — multi-chain wallet trust scoring"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Oyewole Emmanuel Abiodun", email = "abicitye@github.com" }]
+keywords = ["web3", "wallet", "verification", "blockchain", "ethereum", "solana", "trust", "sybil"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Security :: Cryptography",
+]
+requires-python = ">=3.9"
+dependencies = []  # zero dependencies — stdlib only
+
+[project.urls]
+Homepage = "https://github.com/ABICITYE/avp-protocol"
+Documentation = "https://avp-protocol.onrender.com/docs"
+"Bug Tracker" = "https://github.com/ABICITYE/avp-protocol/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["avp_sdk*"]

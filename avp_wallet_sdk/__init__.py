@@ -2,7 +2,7 @@
 avp-sdk — Python client for the AVP Agent Verification Protocol.
 
 Quick start:
-    from avp_sdk import AVPClient
+    from avp_wallet_sdk import AVPClient
 
     client = AVPClient("https://avp-protocol.onrender.com")
     challenge = client.challenge("0xYourWallet", "ethereum")
@@ -13,9 +13,9 @@ Quick start:
     print(result.permissions)   # ["read", "write", "governance_vote"]
 """
 
-from avp_sdk.client import AVPClient
-from avp_sdk.models import Challenge, VerifyResult, TokenInfo, OperatorInfo
-from avp_sdk.exceptions import (
+from avp_wallet_sdk.client import AVPClient
+from avp_wallet_sdk.models import Challenge, VerifyResult, TokenInfo, OperatorInfo
+from avp_wallet_sdk.exceptions import (
     AVPError,
     AVPConnectionError,
     AVPAuthError,

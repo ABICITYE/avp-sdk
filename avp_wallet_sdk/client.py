@@ -2,7 +2,7 @@
 AVP SDK — Main client.
 
 Usage:
-    from avp_sdk import AVPClient
+    from avp_wallet_sdk import AVPClient
 
     client = AVPClient("https://avp-protocol.onrender.com")
 
@@ -19,8 +19,8 @@ from urllib.error import URLError, HTTPError
 from urllib.parse import urlencode
 import json
 
-from avp_sdk.models import Challenge, VerifyResult, TokenInfo, OperatorInfo
-from avp_sdk.exceptions import (
+from avp_wallet_sdk.models import Challenge, VerifyResult, TokenInfo, OperatorInfo
+from avp_wallet_sdk.exceptions import (
     AVPConnectionError, AVPAuthError, AVPRateLimitError,
     AVPSybilError, AVPChallengeError, AVPTokenError, AVPError,
 )

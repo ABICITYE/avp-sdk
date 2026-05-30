@@ -4,7 +4,7 @@ Tests against the live Render API using TEST_ signatures.
 Run: python -m pytest tests/ -v
 """
 import pytest
-from avp_sdk import AVPClient, AVPAuthError, AVPChallengeError, AVPTokenError
+from avp_wallet_sdk import AVPClient, AVPAuthError, AVPChallengeError, AVPTokenError
 
 BASE_URL = "https://avp-protocol.onrender.com"
 WALLET = "0xSDKTestWallet001"

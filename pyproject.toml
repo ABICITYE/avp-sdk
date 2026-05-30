@@ -4,7 +4,7 @@ build-backend = "setuptools.backends.legacy:build"
 
 [project]
 name = "avp-sdk"
-version = "0.1.0"
+version = "0.2.0"
 description = "Python client for the AVP Agent Verification Protocol — multi-chain wallet trust scoring"
 readme = "README.md"
 license = { text = "MIT" }
@@ -32,4 +32,4 @@ Documentation = "https://avp-protocol.onrender.com/docs"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["avp_sdk*"]
+include = ["avp_wallet_sdk*"]

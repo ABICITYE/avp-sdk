@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "avp-sdk"
+name = "avp-wallet-sdk"
 version = "0.4.0"
 description = "Python client for the AVP Agent Verification Protocol — multi-chain wallet trust scoring"
 readme = "README.md"

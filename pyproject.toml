@@ -8,7 +8,7 @@ version = "0.4.0"
 description = "Python client for the AVP Agent Verification Protocol — multi-chain wallet trust scoring"
 readme = "README.md"
 license = { text = "MIT" }
-authors = [{ name = "Oyewole Emmanuel Abiodun", email = "abicitye@github.com" }]
+authors = [{ name = "Oyewole Emmanuel Abiodun", email = "oyewoleemmanuel2005@gmail.com" }]
 keywords = ["web3", "wallet", "verification", "blockchain", "ethereum", "solana", "trust", "sybil"]
 classifiers = [
     "Development Status :: 3 - Alpha",
